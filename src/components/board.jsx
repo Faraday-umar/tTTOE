@@ -1,10 +1,20 @@
 import React from 'react'
 import tile from './tile'
+import strike from './strike'
 
 function board() {
   return (
-    <div>
-      <tile className="" />
+    <div className='border'>
+      <tile className="right-border bottom-borer" /> 
+      <tile className="right-border bottom-borer" /> 
+      <tile className="right-border bottom-borer" /> 
+      <tile className="right-border bottom-borer" /> 
+      <tile className="right-border bottom-borer" /> 
+      <tile className="right-border bottom-borer" /> 
+      <tile className="right-border bottom-borer" /> 
+      <tile className="right-border bottom-borer" /> 
+      <tile className="right-border bottom-borer" /> 
+      <strike />
     </div>
   )
 }

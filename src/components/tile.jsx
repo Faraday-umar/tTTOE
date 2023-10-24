@@ -1,11 +1,7 @@
 import React from 'react'
 
-function tile() {
-  return (
-    <div>
-      X
-    </div>
-  )
+function tile({className}) {
+  return <div className={`tile ${className}`} >  X </div>
 }
 
 export default tile

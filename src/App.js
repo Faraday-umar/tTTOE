@@ -1,12 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import tikTakToe from './components/tikTakToe';
 
 function App() {
-  return (
-    <div className="App">
-    
-    </div>
-  );
+  <tikTakToe />
 }
 
 export default App;
